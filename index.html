@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon"href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+    
+    <!-- BOX ICONS LINK  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <!-- HEADER  -->
+    <div class="header">
+      <div class="align-element">
+        
+        <!-- LOGO  -->
+        <div class="logo">
+          <button class="toggle-menu">
+            <i class="bx bx-menu"></i>
+          </button>
+          <div class="logo-icon">
+            <span><i class="bx bxl-youtube"></i></span>
+            <h4>YouTube</h4>
+          </div>
+          <span id="country-code" class="style-scope ytd-topbar-logo-renderer">
+            <p>IN</p>
+         </span>
+        </div>
+       
+        <!-- SEARCH INPUT  -->
+        <div class="search-input">
+          <div class="input-box">
+            <input type="text" placeholder="Search" />
+            <button><i class="bx bx-search"></i></button>
+          </div>
+          <span><i class="bx bxs-microphone"></i></span>
+        </div>
+       
+        <!-- SMART ICONS  -->
+        <div class="smart-icons">
+          <span><i class="bx bx-video-plus"></i></span>
+          <span class="notification">
+            <i class="bx bx-bell"></i>
+            <span class="notification-badge">9+</span>
+          </span>
+          <div class="profile">
+            <img src="https://yt3.ggpht.com/VmxPNYsEFL9tAQYZ4vSvTe4_fkV_CZOE5500pIKXDVoZ4eE0Cq6AaePkmvO3l_iL8bTzByyq=s88-c-k-c0x00ffffff-no-rj" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- SIDEBAR  -->
+    <div class="sidebar">
+      <div class="align-element">
+       
+        <!-- HOME  -->
+        <ul>
+          <li class="active">
+            <span><i class="bx bxs-home"></i></span>
+            <span>Home</span>
+          </li>
+          <li>
+            <span><i class="bx bx-party"></i></span>
+            <span>Shorts</span>
+          </li>
+          <li>
+            <span><i class="bx bx-money-withdraw"></i></span>
+            <span>Subscriptions</span>
+          </li>
+        </ul>
+        
+        <!-- YOU  -->
+        <ul>
+          <h4>You</h4>
+          <li>
+            <span><i class="bx bx-history"></i></span>
+            <span>History</span>
+          </li>
+          <li>
+            <span><i class="bx bxs-playlist"></i></span>
+            <span>Playlists</span>
+          </li>
+          <li>
+            <span><i class="bx bxs-videos"></i></span>
+            <span>Your videos</span>
+          </li>
+          <li>
+            <span><i class="bx bx-time-five"></i></span>
+            <span>Watch Later</span>
+          </li>
+          <li>
+            <span><i class="bx bx-like"></i></span>
+            <span>Liked videos</span>
+          </li>
+        </ul>
+       
+        <!-- SUBSCRIPTIONS  -->
+        <ul>
+          <h4>Subscriptions</h4>
+          <li>
+            <img src="https://yt3.ggpht.com/qpFlgBO8EGpnnos6oXKTBLdenIhn3enCfJEagi8AjovUYLt9bauTY95BZas_oqJA7mDUfqmqxac=s88-c-k-c0x00ffffff-no-rj" alt="" class="channel-img" />
+            <span>LifeofShazzam</span>
+          </li>
+          <li>
+            <img src="https://yt3.ggpht.com/9ypIjNjtX3xN4dWcw13e9gNAY4GT5BxdnogYln45Sog3-zkAZ6RkuIUE8175zdcs9xip_CPC=s88-c-k-c0x00ffffff-no-rj" alt="" class="channel-img" />
+            <span>AKSHAY- VLOGGER</span>
+          </li>
+          <li>
+            <span><i class="bx bx-list-ul"></i></span>
+            <span>All subscriptions</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- MAIN CONTAINER  -->
+    <div class="main-container">
+      <div class="align-element">
+       
+        <!-- TAGS  -->
+        <ul class="tags">
+          <li class="tag active">
+            <span>All</span>
+          </li>
+          <li class="tag">
+            <span>Music</span>
+          </li>
+          <li class="tag">
+            <span>News</span>
+          </li>
+          <li class="tag">
+            <span>Unni Mukundan</span>
+          </li>
+          <li class="tag">
+            <span>Web Development</span>
+          </li>
+          <li class="tag">
+            <span>Music</span>
+          </li>
+          <li class="tag">
+            <span>Gaming </span>
+          </li>
+          <li class="tag">
+            <span>Trailers</span>
+          </li>
+          <li class="tag">
+            <span>Skills</span>
+          </li>
+          <li class="tag">
+            <span>Royal Enfield</span>
+          </li>
+          <li class="tag">
+            <span>HTML</span>
+          </li>
+        
+        </ul>
+        
+        <!-- VIDEOS  -->
+        <div class="videos">
+         
+          <!-- VIDEO 1 -->
+          <div class="video">
+            <div class="video-img">
+              <img src="https://i.ytimg.com/vi/IcfNCiN7kao/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6TiET9l5ANtGlGnq6IQRn3MjZfA" alt="" />
+              <span class="duration">13:26</span>
+            </div>
+            <div class="video-info">
+              <div class="user-profile">
+                <img src="https://yt3.ggpht.com/ih4KwyBWw54rIvp2YS90_dWAeePTjmx5AWpLAWdR2eKXtoeWdCMLAWAujlTVe8MftCae76KBW8E=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="video-desc">
+                <h4>Marco (Tamil) Jukebox | Unni Mukundan | Shareef Muhammed | Haneef Adeni | Ravi Basrur</h4>
+                <h6>Sony Music South</h6>
+                <div>
+                  <span>1.8K views 1 hour ago</span>
+                </div>
+              </div>
+              <span><i class="bx bx-dots-vertical-rounded"></i></span>
+            </div>
+          </div>
+          
+          <!-- VIDEO 2 -->
+          <div class="video">
+            <div class="video-img">
+              <img src="https://i.ytimg.com/vi/y_RBca_cKG0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBphspRAm1K-q_9qix0F6T968r3vQ" alt="" />
+              <span class="duration">25:05</span>
+            </div>
+            <div class="video-info">
+              <div class="user-profile">
+                <img src="https://yt3.ggpht.com/X987B3spCo_K79nfln89z4Vp3dXP2ht6BXxjd1UEhe8JltNxhHJgdAdu3dX8REpObcM4yIYV2hc=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="video-desc">
+                <h4>ROY'S CATERING | EPISODE 01 | #jismavimal #malayalamfunnyvines #malayalamcomedy</h4>
+                <h6>JISMA & VIMAL</h6>
+                <div>
+                  <span>323K views 19 hours ago</span>
+                </div>
+              </div>
+              <span><i class="bx bx-dots-vertical-rounded"></i></span>
+            </div>
+          </div>
+          
+          <!-- VIDEO 3 -->
+          <div class="video">
+            <div class="video-img">
+              <img src="https://i.ytimg.com/vi/tl8COSG5PCE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChK_dqmk4O6qcSwbEp3yW13JIebw" alt="" />
+              <span class="duration">4:31</span>
+            </div>
+            <div class="video-info">
+              <div class="user-profile">
+                <img src="https://yt3.ggpht.com/CR89RLrwtnmpZKOFCif-dhbMxgjjzTEIHWVsSfVEo22UOhDFwIO90-1lYun6lo3VPLZ2wn7fNG8=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="video-desc">
+                <h4>MY EYES - 510HP BEAST BMW M3 Competition G80 | Cinematic Short Film 4K</h4>
+                <h6>Belgrade Customs</h6>
+                <div>
+                  <span>133K views 2 months ago</span>
+                </div>
+              </div>
+              <span><i class="bx bx-dots-vertical-rounded"></i></span>
+            </div>
+          </div>
+          
+          <!-- VIDEO 4 -->
+          <div class="video">
+            <div class="video-img">
+              <img src="https://i.ytimg.com/vi/d99iu3Jo3AY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFOwZ2bdt3eG98eURLreHkULE4Lw" alt="" />
+              <span class="duration">56:49</span>
+            </div>
+            <div class="video-info">
+              <div class="user-profile">
+                <img src="https://yt3.ggpht.com/6q27j5vUANMKaYwiOhqUdniNiPySXVpWGX3AqBXT1cFQPHm9MRf17SwAM-rbTUEi4E_QVWAoKg=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="video-desc">
+                <h4>EPISODE 1 - WELCOME TO KONA THE PODCAST FT - 4K @eaglegamingop  @germankannapi5909</h4>
+                <h6>KONA THE PODCAST </h6>
+                <div>
+                  <span>177K views 5 days ago</span>
+                </div>
+              </div>
+              <span><i class="bx bx-dots-vertical-rounded"></i></span>
+            </div>
+          </div>
+          
+          <!-- VIDEO 5 -->
+          <div class="video">
+            <div class="video-img">
+              <img src="https://i.ytimg.com/vi/6LSqReemlTk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkqA8EhzuM1RE1DlGIcHjI_QdJRA" alt="" />
+              <span class="duration">2:41</span>
+            </div>
+            <div class="video-info">
+              <div class="user-profile">
+                <img src="https://yt3.ggpht.com/ih4KwyBWw54rIvp2YS90_dWAeePTjmx5AWpLAWdR2eKXtoeWdCMLAWAujlTVe8MftCae76KBW8E=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="video-desc">
+                <h4>IDENTITY Trailer | Tovino Thomas | Trisha | Vinay Rai | Akhil Paul | Anas Khan | Jakes Bejoy</h4>
+                <h6>Sony Music South</h6>
+                <div>
+                  <span>1.6M views 18 hours ago</span>
+                </div>
+              </div>
+              <span><i class="bx bx-dots-vertical-rounded"></i></span>
+            </div>
+          </div>
+         
+          <!-- VIDEO 6 -->
+          <div class="video">
+            <div class="video-img">
+              <img src="https://i.ytimg.com/vi/SAiUrZHiX4Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMRboXaeHYXdpwqlX9z4mikaAzYA" alt="" />
+              <span class="duration">04:00</span>
+            </div>
+            <div class="video-info">
+              <div class="user-profile">
+                <img src="https://yt3.ggpht.com/ytc/AIdro_lxaEo_Bdra5K7tidaziS0Zh6sf7VGbjOmGlX6dbbV7Dg8=s68-c-k-c0x00ffffff-no-rj" alt="" />
+              </div>
+              <div class="video-desc">
+                <h4>Bajaj Pulsar RS 200 detailed review in Malayalam | Slipper Clutch വന്നു | ഒരു Comfortable Sportbike</h4>
+                <h6>ClutchLess</h6>
+                <div>
+                  <span>17K views 1 day ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="end">Made by: Dion v Tom </section>
+    </div>
+  </body>
+</html>
